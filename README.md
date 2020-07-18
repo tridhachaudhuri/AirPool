@@ -163,7 +163,13 @@ While there are multiple use cases which can be formed from the [data](README.md
 
 ## Demo
 
-Stay tuned for more updates. 
+![Demo1](docs/demo1.png)
+
+![Demo2](docs/demo2.png)
+
+![Demo3](docs/demo3.png)
+
+![Demo4](docs/demo4.png)
 
 ## Files in Repo
 
