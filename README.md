@@ -129,7 +129,7 @@ While there are multiple use cases which can be formed from the [data](README.md
 
 ## Framework
 
-![Pipeline](Docs/pipeline.png)
+![Pipeline](docs/pipeline.png)
 
 ### 1. Data 
   The structured as well as unstructed data is stored in S3 buckets. The raw unstructured API data is gotten through running a python code in batches (once or twice a day) by using a scheduler. For a scheduler, I am using the schedule python package. An improvement to this would be to use Airflow. This data is then processed by using python and Spark and the processed data is then stored in the S3 bucket. There are two S3 buckets, one for the raw data and the other for the processed data. The AWS ETL pipeline crawls data from the processed data S3 bucket.  
